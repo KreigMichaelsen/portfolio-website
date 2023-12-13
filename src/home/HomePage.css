@@ -1,0 +1,26 @@
+.homePageContainer {
+    background-color: #edeced;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.homePageTitle {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 500%;
+    font-weight: bold;
+
+}
+
+.homePageSubtitle {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+
+}

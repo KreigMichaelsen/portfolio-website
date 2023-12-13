@@ -16,11 +16,20 @@
     color: white;
     list-style-type: none;
     margin: 10px;
+    
 
     /* background-color: pink; */
 
 }
 .NavLink {
+    color: white;
+}
+
+.NavLink:visited {
+    color: white;
+}
+
+.NavLink:visited {
     color: white;
 }
 
@@ -30,8 +39,7 @@
     
 }
 
-.NavLink:hover {
+.NavLink:link {
 
-   
     color:  #2A2E36;
 }
