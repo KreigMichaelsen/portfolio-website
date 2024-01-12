@@ -1,0 +1,83 @@
+.aboutMePageContainer {
+    display: flex;
+    background-color: #edeced;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.aboutMeTextAndTitleContainer {
+    /* background-color: #edeced; */
+    /* background-color:blue; */
+    float: right;
+    width: 55%;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.aboutMePictureAndLinksContainer {
+    /* background-color: yellow; */
+    float: left;
+    width: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutMeTitle {
+    font-size: 50px;
+}
+
+.aboutMePicture {
+    border-radius: 5px;
+    box-shadow:  20px 20px 0px #2A2E36;
+}
+
+.aboutMeName {
+    margin-top: 20px;
+    
+}
+
+.githubButton {
+    margin-right: 10px;
+    /* background-color: #2A2E36;
+    color: white;
+    border-radius: 10px; */
+}
+
+.githubButton:hover { 
+    transform: scale(1.1); 
+}
+
+.websiteButton {
+    margin-right: 5px;
+    /* background-color: #2A2E36;
+    color: white;
+    border-radius: 10px; */
+}
+.websiteButton:hover { 
+    transform: scale(1.1); 
+}
+
+
+.skillsList {
+    list-style: none;
+    font-weight: bold;
+    float: left;
+    padding-left: 0;
+}
+
+.skillsList li{
+    display: inline-block;
+    padding: 0 0.5rem;
+    
+}
+
+.skillsList li:not(:last-child){
+    border-right: 1px solid black;
+}
+
