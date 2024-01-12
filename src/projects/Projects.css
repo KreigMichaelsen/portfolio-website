@@ -1,0 +1,18 @@
+
+.project1Container {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.project2Container {
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.project1GithubButton {
+    margin: 5px;
+}
+
+.project2GithubButton {
+    margin: 5px;
+}
