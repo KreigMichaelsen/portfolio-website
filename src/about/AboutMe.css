@@ -1,8 +1,18 @@
 .aboutMePageContainer {
     display: flex;
+
     background-color: #edeced;
     height: 100vh;
     width: 100vw;
+    
+}
+
+.aboutMeSectionsContainer {
+    display: flex;
+    flex-wrap: row;
+    background-color: #edeced;
+    margin-top: 8%;
+   
     
 }
 
@@ -10,20 +20,19 @@
 .aboutMeTextAndTitleContainer {
     /* background-color: #edeced; */
     /* background-color:blue; */
-    float: right;
-    width: 55%;
+    /* float: right; */
+    width: 100%; 
     text-align: left;
-    padding-top: 10%;
+    /* padding-top: 10%; */
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 10%; 
 }
 
 .aboutMePictureAndLinksContainer {
     /* background-color: yellow; */
-    float: left;
-    width: 45%;
-    padding-top: 10%;
-    padding-left: 10%;
+    /* float: left; */
+    width: 100%;  
+    margin-bottom: 2%;
     text-align: center;
     justify-content: center;
 }
@@ -35,6 +44,8 @@
 .aboutMePicture {
     border-radius: 5px;
     box-shadow:  20px 20px 0px #2A2E36;
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto;
 }
 
 .aboutMeName {
@@ -79,5 +90,12 @@
 
 .skillsList li:not(:last-child){
     border-right: 1px solid black;
+}
+
+
+@media (max-width: 600px) {
+    .aboutMeSectionsContainer {
+        flex-direction: column; /* Stack boxes vertically */
+    }
 }
 

@@ -2,8 +2,17 @@
     display: flex;
     background-color: #2A2E36;
     height: 25%;
+    
 
 }
+
+/* .Navbar.fixed-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+} */
 
 .Nav {
    
@@ -33,9 +42,19 @@
     color: white;
 }
 
+.NavLink:active {
+    color: white;
+}
+
 .NavItem:hover {
 
     background: #fff;
+    
+}
+
+.NavItem:hover {
+
+    color:  #2A2E36;
     
 }
 
