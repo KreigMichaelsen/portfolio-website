@@ -5,8 +5,9 @@ export const AboutMe = () => {
 	return (
 
         <div className="aboutMePageContainer">
+        <div className="aboutMeSectionsContainer">
             <div className="aboutMePictureAndLinksContainer">
-            <img className="aboutMePicture" src="A89D5973-96C0-4EAE-8748-274104582D8C.JPG" width="250" height="300"></img>
+            <img className="aboutMePicture" src="A89D5973-96C0-4EAE-8748-274104582D8C.JPG" width="300" height="500"></img>
             <h2 className="aboutMeName">Kreig Michaelsen</h2>
             <Button color="dark" className="githubButton" href="https://github.com/KreigMichaelsen" target="_blank">GitHub</Button>
             <Button color="dark" className="websiteButton" href="https://kreigmichaelsen.github.io/portfolio-website/" target="_blank">Portfolio Website</Button>
@@ -28,7 +29,7 @@ export const AboutMe = () => {
 
             </ul>
             </div>
-            
+        </div>
         </div>
     )
     

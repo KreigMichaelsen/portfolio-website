@@ -1,18 +1,99 @@
+.projectPageContainer {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: #edeced;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.projectsContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #edeced;
+    margin-top: 3%;
+    
+}
 
 .project1Container {
     /* background-color: blue; */
     text-align: center;
+    flex-wrap: nowrap;
+    padding: 5%;
 }
 
 .project2Container {
     /* background-color: yellow; */
     text-align: center;
+    flex-wrap: nowrap;
+    padding: 5%;
 }
 
 .project1GithubButton {
-    margin: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    
+}
+
+.project1GithubButton:hover { 
+    transform: scale(1.1); 
 }
 
 .project2GithubButton {
-    margin: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;  
+}
+
+.project2GithubButton:hover { 
+    transform: scale(1.1); 
+}
+
+.project1Picture {
+    
+    border-radius: 5px;
+    box-shadow:  20px 20px 0px #2A2E36;
+    /* height: 25%;
+    width: 25%; */
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto;
+}
+
+.project2Picture {
+    
+    border-radius: 5px;
+    box-shadow:  20px 20px 0px #2A2E36;
+    /* height: 25%;
+    width: 25%; */
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto;
+}
+
+.projectPageTitle {
+    font-size: 75px;
+    margin-left: 2%;
+    /* background-color: red; */
+    
+}
+
+.project1Title {
+    font-size: 50px;
+    /* background-color: red; */
+    
+}
+
+.project2Title {
+    font-size: 50px;
+    /* background-color: red; */
+    
+}
+
+/* .project1Picture:hover { 
+    transform: scale(1.05); 
+} */
+
+@media (max-width: 1000px) {
+    .projectsContainer {
+        flex-direction: column; /* Stack boxes vertically */
+    }
 }
